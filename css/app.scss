@@ -1,0 +1,19 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=PT+Serif:ital@0;1&display=swap');
+
+$font-family: 'Dancing Script', cursive, 'PT Serif', serif;
+$primary : #9158ec;
+$success: #b9a0ec;
+
+// Custom Css
+.header{
+
+    background: #ffffffb5;
+    backdrop-filter: blur(15px) contrast(130%);
+    z-index: 1005;
+
+}
+.scroll{
+    bottom: 50px !important;
+    right: 50px !important;
+}
